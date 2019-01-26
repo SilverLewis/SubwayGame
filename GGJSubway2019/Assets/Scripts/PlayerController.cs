@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float movement = Input.GetAxis("Horizontal");
-        print ( movement);
         bool stillPressing = true;
 
         if (Mathf.Abs(previousMovement) > Mathf.Abs(movement) && Mathf.Sign(previousMovement) == Mathf.Sign(movement))
