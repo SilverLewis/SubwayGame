@@ -58,7 +58,7 @@ public class TrainController : MonoBehaviour
         }
 
         //safety ending
-        if ((gameObject.transform.position.x-.1f) <= nextStop.transform.position.x) {
+        if ((gameObject.transform.position.x-.01f) <= nextStop.transform.position.x) {
             ArrivedAtStation();
         }
     }
@@ -152,7 +152,6 @@ public class TrainController : MonoBehaviour
 
     void ExitTrain() {
         StartCoroutine("FadeOut");
-        travelling = false;
         playerOnBoard = false;
     }
 
