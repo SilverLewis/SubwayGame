@@ -65,7 +65,6 @@ public class TrainController : MonoBehaviour
 
     void ArrivedAtStation()
     {
-        StartCoroutine("DoorTimer");
         StartCoroutine("AtStation");
 
         gameObject.transform.position = nextStop.transform.position;
@@ -104,10 +103,12 @@ public class TrainController : MonoBehaviour
             yield return null;
         }
         TrainEnabled(false);
+        playerOnBoard = false;
     }
 
     IEnumerator FadeIn()
     {
+        playerOnBoard = true;
         for (float f = 0f; f <= 1; f += fadeRate * Time.deltaTime)
         {
             Color tmp = GetComponent<SpriteRenderer>().color;
@@ -116,20 +117,23 @@ public class TrainController : MonoBehaviour
             yield return null;
         }
         TrainEnabled(true);
+
+        StartCoroutine("DoorTimer");//might change to a door method
+        yield return new WaitForSeconds(doorTimer);
+
         MoveTrain();
     }
 
     void TrainEnabled(bool enable) {
     }
 
+    //this method might not be needed and just do FadeIn
     void EnterTrain()
     {
-        //play the door opening audio 
-        //this might just all be part of fade in?
-        StartCoroutine("DoorTimer");
         StartCoroutine("FadeIn");
     }
 
+    //prob should include audio+animation and a bool to see which animation to play
     IEnumerator DoorTimer()
     {
         //maybe disable player movement here
@@ -149,6 +153,7 @@ public class TrainController : MonoBehaviour
     void ExitTrain() {
         StartCoroutine("FadeOut");
         travelling = false;
+        playerOnBoard = false;
     }
 
 }
