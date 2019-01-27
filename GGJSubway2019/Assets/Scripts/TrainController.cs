@@ -8,9 +8,11 @@ public class TrainController : MonoBehaviour
 
     private Transform nextStop;
     private int stopCount;
-    private bool travelling, slowingDown;
+    private bool travelling, slowingDown, doorOpen, arrived;
     private Rigidbody2D rb;
 
+
+    public GameObject DoorHolder;
     public Transform[] AllStops;
     public bool playerOnBoard;
     public float fadeRate, MaxSpeed, Accel, doorTimer, waitTimer;
@@ -37,7 +39,7 @@ public class TrainController : MonoBehaviour
     }
 
     void Travelling() {
-
+        
         float distance = Mathf.Abs(Vector3.Distance(gameObject.transform.position, nextStop.transform.position));
         if ((distance <= Mathf.Abs(Mathf.Pow(rb.velocity.x, 2)) / (2 * Accel)) || slowingDown)
         {
@@ -72,7 +74,8 @@ public class TrainController : MonoBehaviour
 
     void ArrivedAtStation()
     {
-        StartCoroutine("AtStation");
+        if(!arrived)
+            StartCoroutine("AtStation");
 
         gameObject.transform.position = nextStop.transform.position;
 
@@ -82,6 +85,8 @@ public class TrainController : MonoBehaviour
 
     IEnumerator AtStation()
     {
+        arrived = true;
+        print("at station");
         StartCoroutine("DoorTimer");//might change to a door method
         yield return new WaitForSeconds(doorTimer);
         travelling = false;
@@ -111,16 +116,12 @@ public class TrainController : MonoBehaviour
                 transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color = tmp;
             }
 
-
-
-
             tmp = transform.GetChild(0).GetComponent<SpriteRenderer>().color;
             tmp.a = 1-f;
             transform.GetChild(0).GetComponent<SpriteRenderer>().color = tmp;
             //yield return null;
             yield return null;
         }
-        TrainEnabled(false);
         playerOnBoard = false;
     }
 
@@ -148,15 +149,12 @@ public class TrainController : MonoBehaviour
             transform.GetChild(0).GetComponent<SpriteRenderer>().color = tmp;
             yield return null;
         }
-        TrainEnabled(true);
+       // TrainEnabled(true);
 
         StartCoroutine("DoorTimer");//might change to a door method
         yield return new WaitForSeconds(doorTimer);
 
         MoveTrain();
-    }
-
-    void TrainEnabled(bool enable) {
     }
 
     //this method might not be needed and just do FadeIn
@@ -168,14 +166,21 @@ public class TrainController : MonoBehaviour
     //prob should include audio+animation and a bool to see which animation to play
     IEnumerator DoorTimer()
     {
-        //maybe disable player movement here
+        print("flipping doors to: " + doorOpen);
+        if(stopCount < AllStops.Length||doorOpen)
+        for (int i = 0; i<DoorHolder.transform.childCount; i++) {
+            DoorHolder.transform.GetChild(i).GetComponent<Animator>().SetTrigger("FlipState");
+        }
+
         yield return new WaitForSeconds(doorTimer);
+        doorOpen = !doorOpen;
     }
 
     void MoveTrain()
     {
         if (stopCount < AllStops.Length)
         {
+            arrived = false;
             travelling = true;
             nextStop = AllStops[stopCount];
             stopCount++;
@@ -193,8 +198,7 @@ public class TrainController : MonoBehaviour
             print("exited train");
             ExitTrain();
         }
-        print(!playerOnBoard+":"+ Input.GetKeyDown(KeyCode.Space)+":" + !travelling + collider.CompareTag("Player")
-            +":"+ (transform.GetChild(0).GetComponent<SpriteRenderer>().color.a >= .9f));
+
         if (Input.GetKeyDown(KeyCode.Space) && !travelling && collider.CompareTag("Player") && !playerOnBoard&& 
             transform.GetChild(0).GetComponent<SpriteRenderer>().color.a >=.9f)
         {
