@@ -197,12 +197,12 @@ public class TrainController : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     { 
-        if (Input.GetKeyDown(KeyCode.Space)&& !travelling && collider.CompareTag("Player")&&playerOnBoard) {
+        if (Input.GetButtonDown("Vertical") && !travelling && collider.CompareTag("Player")&&playerOnBoard) {
             print("exited train");
             ExitTrain();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && !travelling && collider.CompareTag("Player") && !playerOnBoard&& 
+        if (Input.GetButtonDown("Vertical") && !travelling && collider.CompareTag("Player") && !playerOnBoard&& 
             transform.GetChild(0).GetComponent<SpriteRenderer>().color.a >=.9f)
         {
             print("Entered train");

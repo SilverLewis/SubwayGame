@@ -21,7 +21,7 @@ public class Ending : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     {
-        if (Input.GetKeyDown(KeyCode.Space) && collider.CompareTag("Player") && !train.playerOnBoard)
+        if (Input.GetButtonDown("Vertical") && collider.CompareTag("Player") && !train.playerOnBoard)
         {
             print("endGame");
             ending();

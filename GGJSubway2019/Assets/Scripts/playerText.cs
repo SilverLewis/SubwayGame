@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class playerText : MonoBehaviour
 {
     public Text text;
-    public TrainController train;
     public bool station = false;
     public float textTimer = 4;
     public float fadeRate = 1;
@@ -15,7 +14,7 @@ public class playerText : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     {
-        if (Input.GetKeyDown(KeyCode.Space) && collider.CompareTag("Player")&&train.playerOnBoard!=station)
+        if (Input.GetButtonDown("Vertical")&& collider.CompareTag("Player"))
         {
 
             print("text1");

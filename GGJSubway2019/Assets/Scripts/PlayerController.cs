@@ -47,8 +47,6 @@ public class PlayerController : MonoBehaviour
 
             if ((playerXPos - previousPlayerXPos) > 0)
             {
-
-                print("RIGHT");
                 if (!anime.GetCurrentAnimatorStateInfo(0).IsName("WalkingRight"))
                 {
                     anime.SetTrigger("Right");
@@ -57,7 +55,6 @@ public class PlayerController : MonoBehaviour
             }
             else if ((playerXPos - previousPlayerXPos) < 0)
             {
-                print("left");
                 if (!anime.GetCurrentAnimatorStateInfo(0).IsName("WalkingLeft"))
                 {
                     anime.SetTrigger("Left");
@@ -89,7 +86,6 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            print("stopped");
             anime.SetTrigger("Stopped");
         }
     }
