@@ -1,29 +1,37 @@
 fileFormatVersion: 2
-guid: 3fe7940f686f4a84483e88ad44ac683b
+guid: 50df9fee623b816479be1b39470df8f7
 TextureImporter:
   fileIDToRecycleName:
-    21300000: soldier_0
-    21300002: soldier_1
-    21300004: soldier_2
-    21300006: soldier_3
-    21300008: soldier_4
-    21300010: soldier_5
-    21300012: soldier_6
-    21300014: soldier_7
-    21300016: soldier_8
-    21300018: soldier_9
-    21300020: soldier_10
-    21300022: soldier_11
-    21300024: soldier_12
-    21300026: soldier_13
-    21300028: soldier_14
-    21300030: soldier_15
-    21300032: soldier_16
-    21300034: soldier_17
-    21300036: soldier_18
-    21300038: soldier_19
-    21300040: soldier_20
-    21300042: soldier_21
+    21300000: fishman_0
+    21300002: fishman_1
+    21300004: fishman_2
+    21300006: fishman_3
+    21300008: fishman_4
+    21300010: fishman_5
+    21300012: fishman_6
+    21300014: fishman_7
+    21300016: fishman_8
+    21300018: fishman_9
+    21300020: fishman_10
+    21300022: fishman_11
+    21300024: fishman_12
+    21300026: fishman_13
+    21300028: fishman_14
+    21300030: fishman_15
+    21300032: fishman_16
+    21300034: fishman_17
+    21300036: fishman_18
+    21300038: fishman_19
+    21300040: fishman_20
+    21300042: fishman_21
+    21300044: fishman_22
+    21300046: fishman_23
+    21300048: fishman_24
+    21300050: fishman_25
+    21300052: fishman_26
+    21300054: fishman_27
+    21300056: fishman_28
+    21300058: fishman_29
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -106,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soldier_0
+      name: fishman_0
       rect:
         serializedVersion: 2
-        x: 12
+        x: 11
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,19 +128,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d119cd1291f7b9242ba1a69ede3602af
+      spriteID: 48b44c06c58afea499c85817b2545191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_1
+      name: fishman_1
       rect:
         serializedVersion: 2
-        x: 44
+        x: 43
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,19 +148,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f17baca5a8a06b94abf3260820aa90ae
+      spriteID: 3a97d6a0d702ee24d89c2ef6d14ad9c3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_2
+      name: fishman_2
       rect:
         serializedVersion: 2
-        x: 76
+        x: 75
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,19 +168,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9f29c0e7d9982b4d918353dd1f701aa
+      spriteID: d3951730734361842b0c77ab35c66242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_3
+      name: fishman_3
       rect:
         serializedVersion: 2
-        x: 108
+        x: 107
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,19 +188,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c8eb91cc0f8a3e4184d63773ce852cb
+      spriteID: 76683f397fc3bec479102bc08cfd8e10
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_4
+      name: fishman_4
       rect:
         serializedVersion: 2
-        x: 140
+        x: 139
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,19 +208,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc85148496c61aa418b04614051e9dd2
+      spriteID: 5df7237738b8f1c4c829431e0b32d43c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_5
+      name: fishman_5
       rect:
         serializedVersion: 2
-        x: 172
+        x: 171
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,19 +228,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fe4d1f1947c0654d8b910628dcf05b9
+      spriteID: 92550d81b928f2340b907b33e9d01cce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_6
+      name: fishman_6
       rect:
         serializedVersion: 2
-        x: 204
+        x: 203
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,19 +248,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 007d38127e5110c47b61733d3fac23a8
+      spriteID: 18ba9e5c83dc42146aee0964f10a65b8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_7
+      name: fishman_7
       rect:
         serializedVersion: 2
-        x: 236
+        x: 235
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,19 +268,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3de75891cc1ddc4439c905e34be4a3f1
+      spriteID: 96c63afc94d88d54ba3ce633dc4c96d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_8
+      name: fishman_8
       rect:
         serializedVersion: 2
-        x: 268
+        x: 267
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,19 +288,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a62337d90fa9cd44808f7dbe842075e
+      spriteID: a9a17a8d0739fd44ba9688a82be8d9a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_9
+      name: fishman_9
       rect:
         serializedVersion: 2
-        x: 300
+        x: 299
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,19 +308,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c74d61d48bc50c44888c0af3a77c037e
+      spriteID: 8884c73971175e14084dcf7524ca9423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_10
+      name: fishman_10
       rect:
         serializedVersion: 2
         x: 332
         y: 0
-        width: 9
-        height: 23
+        width: 10
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,19 +328,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a5d5c070714ee644b821601722969c2
+      spriteID: 45229b70814f19947a8086fef3ce6921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_11
+      name: fishman_11
       rect:
         serializedVersion: 2
         x: 364
         y: 0
-        width: 9
-        height: 23
+        width: 10
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,19 +348,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b34453502eb09da4fbdbbf7024025811
+      spriteID: 6b40d94b082370d4eb90af057a3b4c70
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_12
+      name: fishman_12
       rect:
         serializedVersion: 2
         x: 396
         y: 0
-        width: 9
-        height: 23
+        width: 10
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,19 +368,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92608964dc03f1d40a6bc702bd3ceec9
+      spriteID: ffe52f8c800bc984c9def1f8bd1d5b71
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_13
+      name: fishman_13
       rect:
         serializedVersion: 2
         x: 428
         y: 0
-        width: 9
-        height: 23
+        width: 10
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,19 +388,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3339bc1f0d10614da82f9ea88babd85
+      spriteID: 7a40965d819adfc48a60e93cf61d561f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_14
+      name: fishman_14
       rect:
         serializedVersion: 2
         x: 460
         y: 0
-        width: 9
-        height: 23
+        width: 10
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,19 +408,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd11fce5376e6f74a8279e0f91ad1f2c
+      spriteID: 62fcd49a136acf14fab63f195ad1f7bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_15
+      name: fishman_15
       rect:
         serializedVersion: 2
         x: 492
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,19 +428,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bf8b25c663fb614898841cf0c6da074
+      spriteID: 7c0d9a20d8aef1342ac293bb04973c6d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_16
+      name: fishman_16
       rect:
         serializedVersion: 2
         x: 524
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,19 +448,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21166f5eacd5ab548abc52dd57465261
+      spriteID: 8e80adedb2d806b4393582196ff2ec9c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_17
+      name: fishman_17
       rect:
         serializedVersion: 2
         x: 556
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,19 +468,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00dd04ff7997b7947909ed8548d4238c
+      spriteID: 4efd51a09b678fb47b00b4327be33dc7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_18
+      name: fishman_18
       rect:
         serializedVersion: 2
         x: 588
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,19 +488,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ca1d02d92a5ebd4cb2b7a34f9387820
+      spriteID: 98594fddbaac6a049b5ec76fd6f5e93d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_19
+      name: fishman_19
       rect:
         serializedVersion: 2
         x: 620
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,19 +508,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0029a6da08dd09044ac1486bf39677d4
+      spriteID: b3c332ac7dad90f4bbe8ef77ff26ddb9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_20
+      name: fishman_20
       rect:
         serializedVersion: 2
         x: 652
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,19 +528,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b1ba6a09b5565241baf3042aa588d5a
+      spriteID: fa82c2c753cc4294c94a6e9d5807b9db
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soldier_21
+      name: fishman_21
       rect:
         serializedVersion: 2
         x: 684
         y: 0
-        width: 9
-        height: 23
+        width: 11
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,7 +548,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2b4f2704661f8e4b976f06d0a746444
+      spriteID: 8630f5429867c9245acaa771f4cc0279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishman_22
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 0
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33fc0a952ebd064db991c613900493e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishman_23
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b714cccbd28ef943be53a7640bbb6d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishman_24
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f8a2939dc219540a3e1d10306c567d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishman_25
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6596e277db1995047a2a9f8b9d215e33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishman_26
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 0
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45554ef626ad40240b1dac839fd2c22c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishman_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 0
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3d3d1b210b09b4e94b6b638b4b6512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishman_28
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 0
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62a06166e1ad5842b46d15cb484eaf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishman_29
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0538097d1f5d542b18c5c6050d5b49
       vertices: []
       indices: 
       edges: []
@@ -548,7 +716,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 04c440679c324314f81ca5ca3f88452d
+    spriteID: d65aa6dbbcdf76a42b23842a1bd45d0d
     vertices: []
     indices: 
     edges: []
