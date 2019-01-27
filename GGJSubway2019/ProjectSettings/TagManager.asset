@@ -44,6 +44,12 @@ TagManager:
   - name: Station
     uniqueID: 2618039135
     locked: 0
+  - name: TrainAd
+    uniqueID: 858718413
+    locked: 0
+  - name: TrainDoor
+    uniqueID: 2923102189
+    locked: 0
   - name: Train
     uniqueID: 3212017321
     locked: 0

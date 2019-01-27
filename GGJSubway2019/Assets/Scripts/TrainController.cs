@@ -172,13 +172,15 @@ public class TrainController : MonoBehaviour
     //prob should include audio+animation and a bool to see which animation to play
     IEnumerator DoorTimer()
     {
-        if(stopCount < AllStops.Length||doorOpen)
-        for (int i = 0; i<DoorHolder.transform.childCount; i++) {
-            DoorHolder.transform.GetChild(i).GetComponent<Animator>().SetTrigger("FlipState");
-        }
+        if (stopCount < AllStops.Length || doorOpen) { 
+            for (int i = 0; i < DoorHolder.transform.childCount; i++) {
+                DoorHolder.transform.GetChild(i).GetComponent<Animator>().SetTrigger("FlipState");
+            }
+        
 
         yield return new WaitForSeconds(doorTimer);
         doorOpen = !doorOpen;
+        }
     }
 
     void MoveTrain()
