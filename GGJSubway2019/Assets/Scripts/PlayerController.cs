@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        playerXPos = 0;
+        playerXPos = 4.9f;
         previousMovement = 0;
         rb = GetComponent<Rigidbody2D>();
     }
@@ -48,8 +48,8 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                if (playerXPos<-trainSize)
-                    playerXPos = -trainSize;
+                if (playerXPos<-trainSize-.2f)
+                    playerXPos = -trainSize-.2f;
                 else if(playerXPos>stationRightSize)
                     playerXPos = stationRightSize;
             }

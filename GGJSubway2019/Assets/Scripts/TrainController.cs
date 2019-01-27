@@ -6,7 +6,7 @@ public class TrainController : MonoBehaviour
 {
    
 
-    private Transform nextStop;
+    private Vector3 nextStop;
     private int stopCount;
     private bool travelling, slowingDown, doorOpen, arrived;
     private Rigidbody2D rb;
@@ -19,9 +19,10 @@ public class TrainController : MonoBehaviour
 
     void Start()
     {
-        playerOnBoard = true;
+        stopCount = 1;
+        travelling = false;
+        StartCoroutine("FadeOut");
         rb = GetComponent<Rigidbody2D>();
-        EnterTrain();
     }
 
     void Update()
@@ -29,18 +30,11 @@ public class TrainController : MonoBehaviour
         if (travelling)
             Travelling();
 
-
-        if (Input.GetKeyDown(KeyCode.E))
-            MoveTrain();
-        if (Input.GetKeyDown(KeyCode.R))
-            StartCoroutine("FadeIn");
-        if (Input.GetKeyDown(KeyCode.Q))
-            StartCoroutine("FadeOut");
     }
 
     void Travelling() {
         
-        float distance = Mathf.Abs(Vector3.Distance(gameObject.transform.position, nextStop.transform.position));
+        float distance = Mathf.Abs(Vector3.Distance(gameObject.transform.position, nextStop));
         if ((distance <= Mathf.Abs(Mathf.Pow(rb.velocity.x, 2)) / (2 * Accel)) || slowingDown)
         {
             slowingDown = true;
@@ -67,7 +61,7 @@ public class TrainController : MonoBehaviour
 
 
         //safety ending
-        if ((gameObject.transform.position.x-.001f) <= nextStop.transform.position.x) {
+        if ((gameObject.transform.position.x-.001f) <= nextStop.x) {
             ArrivedAtStation();
         }
     }
@@ -77,7 +71,7 @@ public class TrainController : MonoBehaviour
         if(!arrived)
             StartCoroutine("AtStation");
 
-        gameObject.transform.position = nextStop.transform.position;
+        gameObject.transform.position = nextStop;
 
         slowingDown = false;
         rb.velocity = new Vector2(0, 0);
@@ -189,7 +183,9 @@ public class TrainController : MonoBehaviour
         {
             arrived = false;
             travelling = true;
-            nextStop = AllStops[stopCount];
+            nextStop = AllStops[stopCount].position;
+
+            nextStop += new Vector3(-1.9f, 0);
             stopCount++;
         }
     }
