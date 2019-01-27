@@ -30,7 +30,7 @@ public class TrainController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
             MoveTrain();
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.R))
             StartCoroutine("FadeIn");
         if (Input.GetKeyDown(KeyCode.Q))
             StartCoroutine("FadeOut");
@@ -44,9 +44,14 @@ public class TrainController : MonoBehaviour
             slowingDown = true;
             rb.velocity += new Vector2(Accel * Time.deltaTime, 0);
 
-            //this should be going negitive
-            if (rb.velocity.x > 0)
-                rb.velocity = new Vector2(0, rb.velocity.y);
+            
+
+                //this should be going negitive
+           if (rb.velocity.x > 0)
+            {
+                rb.velocity = new Vector2(-.075f, rb.velocity.y);
+            }
+                
         }
 
         else if (Mathf.Abs(rb.velocity.x) < MaxSpeed)
@@ -57,8 +62,10 @@ public class TrainController : MonoBehaviour
                 rb.velocity = new Vector2(MaxSpeed, rb.velocity.y);
         }
 
+
+
         //safety ending
-        if ((gameObject.transform.position.x-.01f) <= nextStop.transform.position.x) {
+        if ((gameObject.transform.position.x-.001f) <= nextStop.transform.position.x) {
             ArrivedAtStation();
         }
     }
@@ -68,7 +75,7 @@ public class TrainController : MonoBehaviour
         StartCoroutine("AtStation");
 
         gameObject.transform.position = nextStop.transform.position;
-        travelling = false;
+
         slowingDown = false;
         rb.velocity = new Vector2(0, 0);
         print("Arrived at station");
@@ -77,13 +84,15 @@ public class TrainController : MonoBehaviour
     IEnumerator AtStation()
     {
         StartCoroutine("DoorTimer");//might change to a door method
-        yield return new WaitForSeconds(doorTimer); 
-
+        yield return new WaitForSeconds(doorTimer);
+        travelling = false;
+        print("here");
         for (float f = 0; f < waitTimer && playerOnBoard; f += .1f)
         {
             yield return new WaitForSeconds(.1f);
         }
 
+        travelling = true;
         if (playerOnBoard) {
             print("onboard");
             StartCoroutine("DoorTimer");//might change to a door method
@@ -153,6 +162,16 @@ public class TrainController : MonoBehaviour
     void ExitTrain() {
         StartCoroutine("FadeOut");
         playerOnBoard = false;
+    }
+
+    void OnTriggerStay2D(Collider2D collider)
+    {
+       print("colliding with door"+ collider.CompareTag("Player")+":"+travelling+":"+ Input.GetKeyDown(KeyCode.Space));
+        
+        if (Input.GetKeyDown(KeyCode.Space)&& !travelling && collider.CompareTag("Player")&&playerOnBoard) {
+            print("exited train");
+            ExitTrain();
+        }
     }
 
 }
