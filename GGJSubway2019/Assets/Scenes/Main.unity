@@ -1004,7 +1004,10 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
+  msg: 'Once you''re out of the station you regain cell service. You decide to call
+    up a friend from Uni.  "Hey man what''s poppin, what are you doing tonight?" "Nah
+    I got nowhere to be, what''s up?" "Ye I just-" "Nah that''s alright, just wonderin.
+    Alright see ya dude, peace." '
   timer: 10
   train: {fileID: 1480272548}
 --- !u!61 &97272759
@@ -3155,7 +3158,10 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
+  msg: You know what? It's a nice day. Why not walk? It's only 4 stops, it's not that
+    cold. You listen through a favorite album on your way. When you get home there
+    are no lights on and the door is locked. You quietly unlock the door and slip
+    in, going straight up to your bedroom.
   timer: 10
   train: {fileID: 1480272548}
 --- !u!61 &360005331
@@ -17490,7 +17496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999074728}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: -0.29, z: 0}
+  m_LocalPosition: {x: 0.633, y: -0.179, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 476580689}
@@ -17510,18 +17516,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0059761405, y: -0.032756552}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.06, y: 0.21}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06, y: 0.25}
+  m_Size: {x: 0.013564169, y: 0.2555131}
   m_EdgeRadius: 0
 --- !u!95 &1999074734
 Animator:
@@ -18371,16 +18377,16 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 100
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This is a test for how really long things would be seen and it sorta works
-    so imma keep writing until the we find the sunrise and cap out this dialog box
-    which is now!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  m_Text: You're coming in for the weekend, to your family's home near High Park.
+    You're tired from the last week, month, and year of university. You'll have to
+    focus your willpower to even get off at the right stop...
 --- !u!222 &2069221633
 CanvasRenderer:
   m_ObjectHideFlags: 0
