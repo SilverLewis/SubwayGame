@@ -2520,7 +2520,7 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: She buzzes happily at you and then goes back to staring across the tracks.
 --- !u!212 &287849040
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2745,7 +2745,8 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: '"Hey what are you doing here? You know if you''re not doing anything you should
+    come to Max''s with me..."'
 --- !u!212 &297727530
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3630,7 +3631,8 @@ MonoBehaviour:
   station: 0
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: You say hi, but they continue to stare at their phone, either ignoring you
+    or just not hearing...
 --- !u!212 &395981494
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3981,7 +3983,7 @@ MonoBehaviour:
   station: 0
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: '"Sorry kid, normally I''d love to chat, but it''s been a long day."'
 --- !u!212 &462803089
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5161,7 +5163,8 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: '"Hey *hic*, you want some kid?" You politely refuse, and motion that you don''t
+    have any change.'
 --- !u!212 &627471567
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6249,7 +6252,8 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: You pick up the phone and listen to the dial tone. You don't have any change
+    so you can't make a call.
 --- !u!212 &757737293
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7855,7 +7859,7 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: '"I finally broke through! Who knows what could be on the other side..."'
 --- !u!212 &915182704
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9858,7 +9862,8 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: You pull at the sword, but just like everything else these past few weeks,
+    you fail.
 --- !u!212 &1237288672
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10497,7 +10502,8 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: 'You tell the busker that you don''t have any money, but he just laughs and
+    tells you to have a safe night. '
 --- !u!212 &1317929632
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10777,7 +10783,8 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: '"Hmmm, I wonder if I have time to get another juice before I have to start
+    my shift... McRongos should add an extra large."'
 --- !u!212 &1322973650
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12027,7 +12034,8 @@ MonoBehaviour:
   station: 0
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: You recognize the guy sitting there as someone from high school. Both of you
+    avoid eye contact.
 --- !u!212 &1471723942
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12393,7 +12401,8 @@ MonoBehaviour:
   station: 0
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: 'The man''s music is so loud through is headphones that you actually consider
+    asking him to turn it down.    '
 --- !u!212 &1488795354
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13381,7 +13390,7 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: The fish man is glugging loudly on the phone, how rude.
 --- !u!212 &1578840902
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13606,7 +13615,8 @@ MonoBehaviour:
   station: 0
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: The man excitedly shows you an assortment of action figures that he has in
+    his bag, you learn a lot about each one.
 --- !u!212 &1583300483
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14106,7 +14116,8 @@ MonoBehaviour:
   station: 0
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: The person sitting there asks you to sign a petition, but neither of you have
+    a pen...
 --- !u!212 &1659680370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14272,7 +14283,8 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: The strange man seems to be in the middle of some sort of ritual, you decide
+    to leave him alone.
 --- !u!212 &1670145014
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14517,7 +14529,8 @@ MonoBehaviour:
   station: 1
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: '"Hey man do you know when the last train comes, I''m waiting for a friend
+    but I don''t want to be stuck on the knight bus."'
 --- !u!212 &1709722231
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16479,7 +16492,7 @@ MonoBehaviour:
   station: 0
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: '"Hey kid, why the long face? You should enjoy your youth while you can."'
 --- !u!212 &1895197990
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16910,7 +16923,8 @@ MonoBehaviour:
   station: 0
   textTimer: 5
   fadeRate: 1
-  msg: WTF you looking at? Thats what I thought, BITCH
+  msg: '"You look like you have something on your mind sonny, when I was your age..."
+    The man talks at length about sock hops, he seems nice. '
 --- !u!212 &1917112154
 SpriteRenderer:
   m_ObjectHideFlags: 0
