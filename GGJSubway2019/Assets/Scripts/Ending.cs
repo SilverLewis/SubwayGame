@@ -15,7 +15,7 @@ public class Ending : MonoBehaviour
     {
         peopleTextBox.enabled = false;
         endingTextBox.enabled = true;
-        blackBox.gameObject.SetActive(true);
+        blackBox.enabled = true;
         endingTextBox.text = msg;
     }
 
