@@ -161,6 +161,7 @@ public class TrainController : MonoBehaviour
     void EnterTrain()
     {
         StartCoroutine("FadeIn");
+
     }
 
     //prob should include audio+animation and a bool to see which animation to play

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Starter : MonoBehaviour
-{
+{ 
     public PlayerController player;
     public Image image;
     public Text text;
