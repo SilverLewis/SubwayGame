@@ -78,7 +78,6 @@ public class TrainController : MonoBehaviour
 
         slowingDown = false;
         rb.velocity = new Vector2(0, 0);
-        print("Arrived at station");
     }
 
     IEnumerator AtStation()
@@ -86,18 +85,15 @@ public class TrainController : MonoBehaviour
         StartCoroutine("DoorTimer");//might change to a door method
         yield return new WaitForSeconds(doorTimer);
         travelling = false;
-        print("here");
         for (float f = 0; f < waitTimer && playerOnBoard; f += .1f)
         {
             yield return new WaitForSeconds(.1f);
         }
 
-        travelling = true;
         if (playerOnBoard) {
-            print("onboard");
+            travelling = true;
             StartCoroutine("DoorTimer");//might change to a door method
             yield return new WaitForSeconds(doorTimer);
-            print("door closed");
             MoveTrain();
         }
     }
@@ -109,6 +105,19 @@ public class TrainController : MonoBehaviour
             Color tmp = GetComponent<SpriteRenderer>().color;
             tmp.a = f;
             GetComponent<SpriteRenderer>().color = tmp;
+            for (int i = 0; i < 7; i++) {
+                tmp = transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color;
+                tmp.a = f;
+                transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color = tmp;
+            }
+
+
+
+
+            tmp = transform.GetChild(0).GetComponent<SpriteRenderer>().color;
+            tmp.a = 1-f;
+            transform.GetChild(0).GetComponent<SpriteRenderer>().color = tmp;
+            //yield return null;
             yield return null;
         }
         TrainEnabled(false);
@@ -123,6 +132,20 @@ public class TrainController : MonoBehaviour
             Color tmp = GetComponent<SpriteRenderer>().color;
             tmp.a = f;
             GetComponent<SpriteRenderer>().color = tmp;
+
+            for (int i = 0; i < 7; i++)
+            {
+                tmp = transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color;
+                tmp.a = f;
+                transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color = tmp;
+            }
+
+
+
+
+            tmp = transform.GetChild(0).GetComponent<SpriteRenderer>().color;
+            tmp.a = 1 - f;
+            transform.GetChild(0).GetComponent<SpriteRenderer>().color = tmp;
             yield return null;
         }
         TrainEnabled(true);
@@ -165,12 +188,18 @@ public class TrainController : MonoBehaviour
     }
 
     void OnTriggerStay2D(Collider2D collider)
-    {
-       print("colliding with door"+ collider.CompareTag("Player")+":"+travelling+":"+ Input.GetKeyDown(KeyCode.Space));
-        
+    { 
         if (Input.GetKeyDown(KeyCode.Space)&& !travelling && collider.CompareTag("Player")&&playerOnBoard) {
             print("exited train");
             ExitTrain();
+        }
+        print(!playerOnBoard+":"+ Input.GetKeyDown(KeyCode.Space)+":" + !travelling + collider.CompareTag("Player")
+            +":"+ (transform.GetChild(0).GetComponent<SpriteRenderer>().color.a >= .9f));
+        if (Input.GetKeyDown(KeyCode.Space) && !travelling && collider.CompareTag("Player") && !playerOnBoard&& 
+            transform.GetChild(0).GetComponent<SpriteRenderer>().color.a >=.9f)
+        {
+            print("Entered train");
+            EnterTrain();
         }
     }
 
