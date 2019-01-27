@@ -86,7 +86,6 @@ public class TrainController : MonoBehaviour
     IEnumerator AtStation()
     {
         arrived = true;
-        print("at station");
         StartCoroutine("DoorTimer");//might change to a door method
         yield return new WaitForSeconds(doorTimer);
         travelling = false;
@@ -105,15 +104,20 @@ public class TrainController : MonoBehaviour
 
     IEnumerator FadeOut()
     {
+        playerOnBoard = false;
         for (float f = 1f; f >= 0; f -= fadeRate * Time.deltaTime)
         {
             Color tmp = GetComponent<SpriteRenderer>().color;
             tmp.a = f;
             GetComponent<SpriteRenderer>().color = tmp;
-            for (int i = 0; i < 7; i++) {
-                tmp = transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color;
-                tmp.a = f;
-                transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color = tmp;
+            for (int i = 1; i < transform.childCount; i++)
+            {
+                for (int j = 0; j < transform.GetChild(i).childCount; j++)
+                {
+                    tmp = transform.GetChild(i).GetChild(j).GetComponent<SpriteRenderer>().color;
+                    tmp.a = f;
+                    transform.GetChild(i).GetChild(j).GetComponent<SpriteRenderer>().color = tmp;
+                }
             }
 
             tmp = transform.GetChild(0).GetComponent<SpriteRenderer>().color;
@@ -122,7 +126,7 @@ public class TrainController : MonoBehaviour
             //yield return null;
             yield return null;
         }
-        playerOnBoard = false;
+        
     }
 
     IEnumerator FadeIn()
@@ -134,11 +138,13 @@ public class TrainController : MonoBehaviour
             tmp.a = f;
             GetComponent<SpriteRenderer>().color = tmp;
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 1; i < transform.childCount; i++)
             {
-                tmp = transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color;
-                tmp.a = f;
-                transform.GetChild(1).GetChild(i).GetComponent<SpriteRenderer>().color = tmp;
+                for (int j = 0; j < transform.GetChild(i).childCount; j++) {
+                    tmp = transform.GetChild(i).GetChild(j).GetComponent<SpriteRenderer>().color;
+                    tmp.a = f;
+                    transform.GetChild(i).GetChild(j).GetComponent<SpriteRenderer>().color = tmp;
+                }
             }
 
 
@@ -166,7 +172,6 @@ public class TrainController : MonoBehaviour
     //prob should include audio+animation and a bool to see which animation to play
     IEnumerator DoorTimer()
     {
-        print("flipping doors to: " + doorOpen);
         if(stopCount < AllStops.Length||doorOpen)
         for (int i = 0; i<DoorHolder.transform.childCount; i++) {
             DoorHolder.transform.GetChild(i).GetComponent<Animator>().SetTrigger("FlipState");
