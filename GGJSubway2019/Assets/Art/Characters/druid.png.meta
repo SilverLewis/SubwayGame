@@ -104,10 +104,10 @@ TextureImporter:
       name: druid_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,7 +115,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 033da532f4ce91046bb29e2d572db63f
+      spriteID: 11dade9523c55ec42a3258c66bb23e33
       vertices: []
       indices: 
       edges: []
@@ -124,10 +124,10 @@ TextureImporter:
       name: druid_1
       rect:
         serializedVersion: 2
-        x: 41
+        x: 32
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,7 +135,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54368015a83586742a673762f06ed2aa
+      spriteID: b9beaa5d1a815b542a398b55f122dbbc
       vertices: []
       indices: 
       edges: []
@@ -144,10 +144,10 @@ TextureImporter:
       name: druid_2
       rect:
         serializedVersion: 2
-        x: 73
+        x: 64
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,7 +155,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 582e17c6484b14d428a28273dcda4953
+      spriteID: dec7f6b2ed517864381a052a92590239
       vertices: []
       indices: 
       edges: []
@@ -164,10 +164,10 @@ TextureImporter:
       name: druid_3
       rect:
         serializedVersion: 2
-        x: 105
+        x: 96
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,7 +175,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c9cf643cf28c3488342ebf568a90a8
+      spriteID: 8a4edff3acc6bb4429c025be6ed06d96
       vertices: []
       indices: 
       edges: []
@@ -184,10 +184,10 @@ TextureImporter:
       name: druid_4
       rect:
         serializedVersion: 2
-        x: 137
+        x: 128
         y: 0
-        width: 13
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,7 +195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67e1d26e0a5b1114aa40d22865cfedc7
+      spriteID: 70ece1d85a0480842b8c8e41b9d312f7
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
       name: druid_5
       rect:
         serializedVersion: 2
-        x: 169
+        x: 160
         y: 0
-        width: 15
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,7 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b01c540a598f8884fa67cc70a537d62a
+      spriteID: 20a55dc84eb0a5d459b19a800ec244b1
       vertices: []
       indices: 
       edges: []
@@ -224,10 +224,10 @@ TextureImporter:
       name: druid_6
       rect:
         serializedVersion: 2
-        x: 201
+        x: 192
         y: 0
-        width: 17
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,7 +235,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76021f2fdc371c544924157633893f1d
+      spriteID: 0cbdc6cf734319940a17e2440b3454a1
       vertices: []
       indices: 
       edges: []
@@ -244,10 +244,10 @@ TextureImporter:
       name: druid_7
       rect:
         serializedVersion: 2
-        x: 233
+        x: 224
         y: 0
-        width: 19
-        height: 17
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,7 +255,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9692b68cc2fdb2408d137ffd737f791
+      spriteID: b67c31d5b1517594cb53be6038542a51
       vertices: []
       indices: 
       edges: []
@@ -264,10 +264,10 @@ TextureImporter:
       name: druid_8
       rect:
         serializedVersion: 2
-        x: 265
+        x: 256
         y: 0
-        width: 23
-        height: 20
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,7 +275,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b1e137c709d12f4283fd7dcb2507ead
+      spriteID: 6d910acf50aa23440a94a822da554a3b
       vertices: []
       indices: 
       edges: []
@@ -284,10 +284,10 @@ TextureImporter:
       name: druid_9
       rect:
         serializedVersion: 2
-        x: 297
+        x: 288
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,7 +295,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b14e98c9eaf5d46983dee3457981e1
+      spriteID: 20a6b1e36cab5ac46beb2ecb57d9079d
       vertices: []
       indices: 
       edges: []
@@ -304,10 +304,10 @@ TextureImporter:
       name: druid_10
       rect:
         serializedVersion: 2
-        x: 329
+        x: 320
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,7 +315,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 574263f975761ca4fabbcb8f62edc4fd
+      spriteID: 0e075698240a5b7448adeafb1f6dd37b
       vertices: []
       indices: 
       edges: []
@@ -324,10 +324,10 @@ TextureImporter:
       name: druid_11
       rect:
         serializedVersion: 2
-        x: 361
+        x: 352
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,7 +335,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 460cbbeac5e42904e96ad2997f6ed5aa
+      spriteID: 3cc14d92fa6598042b25a83cbebfafb7
       vertices: []
       indices: 
       edges: []
@@ -344,10 +344,10 @@ TextureImporter:
       name: druid_12
       rect:
         serializedVersion: 2
-        x: 393
+        x: 384
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,7 +355,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe71968ed39f7d45bfd7c28481cf218
+      spriteID: 9c7ed7e09405ed44493ab896d17d03e6
       vertices: []
       indices: 
       edges: []
@@ -364,10 +364,10 @@ TextureImporter:
       name: druid_13
       rect:
         serializedVersion: 2
-        x: 425
+        x: 416
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,7 +375,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 083e8e98718b6b14a994e79058620664
+      spriteID: d4ca7fa600b3dc44295b33e51afdfe5a
       vertices: []
       indices: 
       edges: []
@@ -384,10 +384,10 @@ TextureImporter:
       name: druid_14
       rect:
         serializedVersion: 2
-        x: 457
+        x: 448
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,7 +395,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370aead3485856f448d7825ff885843c
+      spriteID: 9acb2fb81c66a9f4b965a3b26d92ba3d
       vertices: []
       indices: 
       edges: []
@@ -404,10 +404,10 @@ TextureImporter:
       name: druid_15
       rect:
         serializedVersion: 2
-        x: 489
+        x: 480
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,7 +415,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a55235af1d9b20d41a42eb783a754948
+      spriteID: 76a818a514cf54d439e6b5ae16c7bac4
       vertices: []
       indices: 
       edges: []
@@ -424,10 +424,10 @@ TextureImporter:
       name: druid_16
       rect:
         serializedVersion: 2
-        x: 521
+        x: 512
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,7 +435,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00bab1288695292468b913fd8f4a5f0c
+      spriteID: 464be3fc6314f8c4fa7a6ef374112045
       vertices: []
       indices: 
       edges: []
