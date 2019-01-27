@@ -12,10 +12,15 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private float previousMovement;
     private float playerXPos;
+    private float previousPlayerXPos;
+
+    private Animator anime;
 
     void Start()
     {
+        anime = GetComponent<Animator>();
         playerXPos = 4.9f;
+        previousPlayerXPos = playerXPos;
         previousMovement = 0;
         rb = GetComponent<Rigidbody2D>();
     }
@@ -40,11 +45,34 @@ public class PlayerController : MonoBehaviour
 
             playerXPos +=movement * moveSpeed * Time.deltaTime;
 
+            if ((playerXPos - previousPlayerXPos) > 0)
+            {
+
+                print("RIGHT");
+                if (!anime.GetCurrentAnimatorStateInfo(0).IsName("WalkingRight"))
+                {
+                    anime.SetTrigger("Right");
+                }
+
+            }
+            else if ((playerXPos - previousPlayerXPos) < 0)
+            {
+                print("left");
+                if (!anime.GetCurrentAnimatorStateInfo(0).IsName("WalkingLeft"))
+                {
+                    anime.SetTrigger("Left");
+                }
+            }
+            
+
             //on train box
             if (train.gameObject.GetComponent<TrainController>().playerOnBoard)
             {
                 if (Mathf.Abs(playerXPos) > trainSize)
                     playerXPos = Mathf.Sign(playerXPos) * trainSize;
+
+               
+
             }
             else
             {
@@ -54,9 +82,15 @@ public class PlayerController : MonoBehaviour
                     playerXPos = stationRightSize;
             }
 
+            previousPlayerXPos = playerXPos;
 
             //rb.MovePosition(new Vector2(transform.position.x + movement * moveSpeed*Time.deltaTime, transform.position.y));
 
+        }
+        else
+        {
+            print("stopped");
+            anime.SetTrigger("Stopped");
         }
     }
 }
