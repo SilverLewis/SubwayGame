@@ -88,7 +88,7 @@ public class TrainController : MonoBehaviour
             yield return new WaitForSeconds(.1f);
         }
 
-        if (playerOnBoard) {
+        if (playerOnBoard && stopCount < AllStops.Length) {
             travelling = true;
             StartCoroutine("DoorTimer");//might change to a door method
             yield return new WaitForSeconds(doorTimer);
@@ -120,7 +120,10 @@ public class TrainController : MonoBehaviour
             //yield return null;
             yield return null;
         }
-        
+        foreach (playerText child in transform.GetComponentsInChildren<playerText>())
+        {
+            child.enabled = false;
+        }
     }
 
     IEnumerator FadeIn()
@@ -147,6 +150,10 @@ public class TrainController : MonoBehaviour
             tmp = transform.GetChild(0).GetComponent<SpriteRenderer>().color;
             tmp.a = 1 - f;
             transform.GetChild(0).GetComponent<SpriteRenderer>().color = tmp;
+            foreach (playerText child in transform.GetComponentsInChildren<playerText>())
+            {
+                child.enabled = true;
+            }
             yield return null;
         }
        // TrainEnabled(true);

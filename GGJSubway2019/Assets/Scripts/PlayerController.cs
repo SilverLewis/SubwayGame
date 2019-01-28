@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         anime = GetComponent<Animator>();
-        playerXPos = 4.9f;
+        playerXPos = 3.1f;
         previousPlayerXPos = playerXPos;
         previousMovement = 0;
         rb = GetComponent<Rigidbody2D>();
@@ -87,6 +87,12 @@ public class PlayerController : MonoBehaviour
         else
         {
             anime.SetTrigger("Stopped");
+        }
+
+
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 }

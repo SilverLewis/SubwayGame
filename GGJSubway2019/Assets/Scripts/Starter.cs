@@ -17,7 +17,7 @@ public class Starter : MonoBehaviour
     void Update()
     {
         if (Input.anyKeyDown) {
-            print("here");
+
             player.enabled = true;
             image.enabled = false;
             text.enabled = false;

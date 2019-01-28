@@ -257,7 +257,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b1904cad7bf974f49bc0cb12774eae45, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -336,7 +336,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 25cf5b93e966fe54d863e97de18bd604, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -502,7 +502,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6f79df6461b4b4e4baa242e729b9c6c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -739,12 +739,12 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 0.6, y: 0.78}
   m_AdaptiveModeThreshold: 0.5
@@ -1005,10 +1005,10 @@ MonoBehaviour:
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
   msg: 'Once you''re out of the station you regain cell service. You decide to call
-    up a friend from Uni.  "Hey man what''s poppin, what are you doing tonight?" "Nah
-    I got nowhere to be, what''s up?" "Ye I just-" "Nah that''s alright, just wonderin.
-    Alright see ya dude, peace." '
-  timer: 10
+    up a friend from Uni.  "Hey man what''s poppin, what are you doing tonight?" ...
+    "Nah I got nowhere to be, what''s up?" ... "Ye I just-" ... "Nah that''s alright,
+    just wonderin. Alright see ya dude, peace."  '
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &97272759
 BoxCollider2D:
@@ -1186,9 +1186,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b60b498310c64474d8fe8b061ae9f312, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f375a4edfa0166439cadc5280ad05e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1344,7 +1344,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd0cf526273fc7e4fade2f733b170b63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1423,7 +1423,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2ce1c7c98eb75fa48bba590922696221, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1569,8 +1569,11 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: After a long subway ride, you embark on a long bus ride. The farther transit
+    carries you, the less viable it seems to turn around and go home. After an impromptu
+    ticket purchase, you wait in the airport for your third and longest ride. Before
+    the plane departs, you call home and leave a brief and shaky message.
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &149451168
 BoxCollider2D:
@@ -1743,9 +1746,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0d0116c1b6440974aa6d78f05c93a0b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3edad9b5da6f8a14fba8142b4afc1df4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1901,7 +1904,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd0cf526273fc7e4fade2f733b170b63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1980,9 +1983,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25cf5b93e966fe54d863e97de18bd604, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2176,7 +2179,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2559,7 +2562,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e38338aaa3fd420489e457f1d099fef6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2785,7 +2788,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 94d874b829dff3d44a85df379f77141b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2939,9 +2942,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1139784009
-  m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingLayerID: 1338043387
+  m_SortingLayer: 4
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: fdd9136c76527e74ca056969f9b2cccb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -3019,7 +3022,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6f79df6461b4b4e4baa242e729b9c6c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3162,7 +3165,7 @@ MonoBehaviour:
     cold. You listen through a favorite album on your way. When you get home there
     are no lights on and the door is locked. You quietly unlock the door and slip
     in, going straight up to your bedroom.
-  timer: 10
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &360005331
 BoxCollider2D:
@@ -3334,10 +3337,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 25cf5b93e966fe54d863e97de18bd604, type: 3}
+  m_SortingLayerID: -1676928161
+  m_SortingLayer: 2
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 6f79df6461b4b4e4baa242e729b9c6c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3375,15 +3378,15 @@ RectTransform:
   m_GameObject: {fileID: 364306713}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.091150746, y: 0.091150746, z: 0.091150746}
   m_Children: []
   m_Father: {fileID: 2126277734}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -175}
-  m_SizeDelta: {x: 600, y: 80}
+  m_AnchoredPosition: {x: 0.0000081062, y: -183.7}
+  m_SizeDelta: {x: 6353.9, y: 747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364306715
 MonoBehaviour:
@@ -3406,12 +3409,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 1eeb1b0f2b0b09647b099cbf68da1944, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 100
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3495,7 +3498,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd0cf526273fc7e4fade2f733b170b63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3574,7 +3577,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b63a5a9e349765144b10a76696d6d2da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4074,7 +4077,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.21698111, g: 0.2056562, b: 0.14431292, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -4562,8 +4565,12 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: 'You decide to go with Simon to the party. There''s only like 4 people there
+    but they''re pretty drunk and the music is really loud so you suppose it qualifies.
+    You decide to sleep over, in hopes of delaying the inevitable. Maybe you can just
+    chill all weekend. But you get kicked out the next morning and everyone else has
+    other plans. '
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &525117974
 BoxCollider2D:
@@ -4657,7 +4664,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2f375a4edfa0166439cadc5280ad05e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5206,7 +5213,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300046, guid: 6ec3b52a568c873499f3808b734015fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5598,7 +5605,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2f375a4edfa0166439cadc5280ad05e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5677,7 +5684,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2f375a4edfa0166439cadc5280ad05e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5756,7 +5763,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b63a5a9e349765144b10a76696d6d2da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5974,8 +5981,11 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: You're pleasantly suprised that the LCBO is still open. You go in just to kill
+    time, but end up buying a mickey. You swig surreptitiously as you backtrack through
+    sidestreets to High Park. Ideally, you will be incapable of serious conversation
+    by the time you get home.
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &708623216
 BoxCollider2D:
@@ -6295,7 +6305,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 16c107d53d4fb4245923e197a6c25132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6374,7 +6384,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b60b498310c64474d8fe8b061ae9f312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6532,9 +6542,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b60b498310c64474d8fe8b061ae9f312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6592,8 +6602,13 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: 'You realize you''re pretty hungry. You pop in to McRongo''s for some nuggets.
+    The room is cramped and people keep asking if you''re in line. Through the dividing
+    wall you see an altercation spring up in the other half of the store. The person
+    behind you in line pushes past to slurredly ask "what they owe", though they haven''t
+    ordered. You recieve your nuggest and notice they didn''t give you any sauce,
+    but you don''t really want to go back in there, so you eat them dry. '
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &816289988
 BoxCollider2D:
@@ -6924,7 +6939,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b60b498310c64474d8fe8b061ae9f312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7240,9 +7255,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0d0116c1b6440974aa6d78f05c93a0b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7439,9 +7454,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f375a4edfa0166439cadc5280ad05e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7518,7 +7533,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0d0116c1b6440974aa6d78f05c93a0b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7755,7 +7770,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 25cf5b93e966fe54d863e97de18bd604, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7901,7 +7916,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8199f3525fcfb7148810ea4c8ebcf7ad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8184,7 +8199,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd0cf526273fc7e4fade2f733b170b63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8538,7 +8553,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd0cf526273fc7e4fade2f733b170b63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8776,7 +8791,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2f375a4edfa0166439cadc5280ad05e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8900,8 +8915,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041519811}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -0.1, z: 0}
-  m_LocalScale: {x: 1, y: 0.8, z: 1}
+  m_LocalPosition: {x: -4.2827, y: -0.1152, z: 0}
+  m_LocalScale: {x: 4.5654, y: 0.83048004, z: 1}
   m_Children: []
   m_Father: {fileID: 868433010}
   m_RootOrder: 2
@@ -9020,7 +9035,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6f79df6461b4b4e4baa242e729b9c6c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9080,8 +9095,11 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: You've finally arrived at your Toronto family home, but the problems from university
+    weigh heavy in your backpack. The light in the kitchen is on, and you can see
+    the glow of the living room TV. Your parents are awake, downstairs, probably watching
+    'Home Improvement'. You linger a long time before turning the handle.
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &1053033182
 BoxCollider2D:
@@ -9144,6 +9162,7 @@ Transform:
   - {fileID: 75741219}
   - {fileID: 672497654}
   - {fileID: 1757641282}
+  - {fileID: 1593539232}
   m_Father: {fileID: 1571872752}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9758,7 +9777,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b60b498310c64474d8fe8b061ae9f312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9799,7 +9818,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237288667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -0.18, z: 0}
+  m_LocalPosition: {x: 0.261, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 104931334}
@@ -9905,7 +9924,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2af812c50b26f064eae2e0be76ebdcf6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9965,8 +9984,14 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: 'The stairs out of the subway lead down rather than up, and open out to an
+    underground dock. A large submarine is docked, with it''s hatch open. You climb
+    inside and descend. A tunnel leads out into the open sea. You marvel through the
+    window at the myriad of colorful fish playing outside. Suddenly a huge pale tentacle
+    slams onto the glass. The submarine groans and creaks as the giant squid attempts
+    to assert it''s dominance. As the vessel fills with water you realize that you
+    got off at the wrong stop. '
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &1244848712
 BoxCollider2D:
@@ -10060,9 +10085,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25cf5b93e966fe54d863e97de18bd604, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10218,7 +10243,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3edad9b5da6f8a14fba8142b4afc1df4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10545,7 +10570,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b660cff7b1903394e93e6d722f52a661, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10570,7 +10595,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 95dc90d3ba617e04995ee6d2de1d685a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -10826,7 +10851,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4cb74efa2c9dba642a4a72c086560fde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10905,7 +10930,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3edad9b5da6f8a14fba8142b4afc1df4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11142,7 +11167,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6f79df6461b4b4e4baa242e729b9c6c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11496,7 +11521,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0d0116c1b6440974aa6d78f05c93a0b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11575,7 +11600,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b29a6fcdf220d8e4c867a1b9092c3111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11914,8 +11939,12 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: 'Walking between tall bluish trees, you think back to the last time you went
+    on a camping trip. It''s been so long. Maybe this is where you belong, out among
+    the trees, and the mushrooms, and the will-o-the-wisps, and the talking frogs.
+    Not a computer or textbook or streetlight in sight. You hear a wolf howl in the
+    distance. Your sneakers are sinking into the mud. Yeah, this is the life. '
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &1460677038
 BoxCollider2D:
@@ -12638,9 +12667,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b60b498310c64474d8fe8b061ae9f312, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f375a4edfa0166439cadc5280ad05e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12913,7 +12942,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13150,9 +13179,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b60b498310c64474d8fe8b061ae9f312, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b63a5a9e349765144b10a76696d6d2da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13308,7 +13337,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578840896}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -0.28, z: 0}
+  m_LocalPosition: {x: 0.236, y: -0.28, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1094134511}
@@ -13432,7 +13461,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300034, guid: 50df9fee623b816479be1b39470df8f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13592,7 +13621,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.1}
+  m_Offset: {x: -0.084744334, y: -0.10000001}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13603,7 +13632,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.4}
+  m_Size: {x: 0.17106271, y: 0.4}
   m_EdgeRadius: 0
 --- !u!114 &1583300482
 MonoBehaviour:
@@ -13745,6 +13774,85 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 7.31, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1593539231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593539232}
+  - component: {fileID: 1593539233}
+  m_Layer: 0
+  m_Name: Poster (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593539232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593539231}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.005, y: -0.055, z: 0}
+  m_LocalScale: {x: 0.1668, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1081038641}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1593539233
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593539231}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1338043387
+  m_SortingLayer: 4
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b29a6fcdf220d8e4c867a1b9092c3111, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.6, y: 0.78}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -14201,7 +14309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670145008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.238, y: -0.157, z: 0}
+  m_LocalPosition: {x: -0.825, y: -0.157, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 2073080113}
@@ -14326,7 +14434,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5a30fe5b87f69a349a87380ef5b1ab01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14405,7 +14513,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b63a5a9e349765144b10a76696d6d2da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14572,7 +14680,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1800425561
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300010, guid: 3fe7940f686f4a84483e88ad44ac683b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14846,7 +14954,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0d0116c1b6440974aa6d78f05c93a0b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15051,9 +15159,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3edad9b5da6f8a14fba8142b4afc1df4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15209,7 +15317,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1c52ef1932fc10043ae9e5f9028ecbf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15288,9 +15396,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94f8a4d0a4570f3438092376a318eeab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b63a5a9e349765144b10a76696d6d2da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15446,7 +15554,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2f375a4edfa0166439cadc5280ad05e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15585,8 +15693,13 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: 'You don''t think you''ve ever been to this neighborhood before. You admire
+    the rustic architecture and the gas lamp streetlights. The people are out in market
+    stands, selling fish and boar skins. They yell in a strange accent, and stare
+    at your clothes as you pass by. You didn''t think there was any neighboorhood
+    in Toronto so untouched by industry. Or does this far west count as Missisauga?
+    Do they use donkey drawn wagons in Missauga? '
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &1788213215
 BoxCollider2D:
@@ -15680,7 +15793,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b60b498310c64474d8fe8b061ae9f312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15797,8 +15910,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815168198}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5, y: -0.1, z: 0}
-  m_LocalScale: {x: 1, y: 0.8, z: 1}
+  m_LocalPosition: {x: 3.9774, y: -0.1191, z: 0}
+  m_LocalScale: {x: 3.9548, y: 0.83816004, z: 1}
   m_Children: []
   m_Father: {fileID: 868433010}
   m_RootOrder: 1
@@ -15996,7 +16109,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3edad9b5da6f8a14fba8142b4afc1df4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16214,8 +16327,12 @@ MonoBehaviour:
   peopleTextBox: {fileID: 364306715}
   endingTextBox: {fileID: 2069221632}
   blackBox: {fileID: 1577904899}
-  msg: THIS IS THE END, OPEN UP AND COUUUNNNNT TO 10
-  timer: 10
+  msg: You find yourself at a club. You thought it was supposed to be Jazz club but
+    what do you know? Maybe if you'd gone into sound production you would know why
+    there was EDM music playing at this Jazz club. Suddenly you're jostled from behind,
+    slammed into the ground and wholely disoriented. When you get your bearings, you've
+    lost your phone and wallet, and you haven't yet paid your tab.
+  timer: 17
   train: {fileID: 1480272548}
 --- !u!61 &1852690240
 BoxCollider2D:
@@ -17496,7 +17613,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999074728}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.633, y: -0.179, z: 0}
+  m_LocalPosition: {x: 3.1, y: -0.179, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 476580689}
@@ -17516,7 +17633,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0059761405, y: -0.032756552}
+  m_Offset: {x: -0.0046671033, y: -0.032756552}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -17527,7 +17644,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.013564169, y: 0.2555131}
+  m_Size: {x: 0.051283285, y: 0.2555131}
   m_EdgeRadius: 0
 --- !u!95 &1999074734
 Animator:
@@ -17614,7 +17731,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd0cf526273fc7e4fade2f733b170b63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18222,7 +18339,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3edad9b5da6f8a14fba8142b4afc1df4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18301,7 +18418,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b63a5a9e349765144b10a76696d6d2da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18341,15 +18458,15 @@ RectTransform:
   m_GameObject: {fileID: 2069221630}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_LocalScale: {x: 0.13067606, y: 0.13067606, z: 0.13067606}
   m_Children: []
   m_Father: {fileID: 2126277734}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 550, y: 160}
+  m_AnchoredPosition: {x: 3, y: 19.6}
+  m_SizeDelta: {x: 4269.3, y: 2519.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2069221632
 MonoBehaviour:
@@ -18372,8 +18489,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 1eeb1b0f2b0b09647b099cbf68da1944, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -18384,9 +18501,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You're coming in for the weekend, to your family's home near High Park.
-    You're tired from the last week, month, and year of university. You'll have to
-    focus your willpower to even get off at the right stop...
+  m_Text: 'You''re coming in for the weekend, to your family''s Toronto home near
+    High Park. You''re tired from the last week, month, and year of university. Dreading
+    what lies ahead, you''ll have to focus your willpower to even get off at the right
+    stop...
+
+
+    (Press Any Key To Begin)'
 --- !u!222 &2069221633
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18546,7 +18667,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1338043387
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6f79df6461b4b4e4baa242e729b9c6c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

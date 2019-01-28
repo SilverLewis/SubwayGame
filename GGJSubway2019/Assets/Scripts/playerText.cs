@@ -16,9 +16,11 @@ public class playerText : MonoBehaviour
     {
         if (Input.GetButtonDown("Vertical")&& collider.CompareTag("Player"))
         {
-
-            print("text1");
-            StartCoroutine("DisplayText");
+            if (enabled)
+            {
+                //print("text1");
+                StartCoroutine("DisplayText");
+            }
         }
     }
 
