@@ -8,7 +8,7 @@ public class TrainController : MonoBehaviour
 
     private Vector3 nextStop;
     private int stopCount;
-    private bool travelling, slowingDown, doorOpen, arrived;
+    private bool travelling, slowingDown, doorOpen, arrived, switched;
     private Rigidbody2D rb;
 
 
@@ -19,6 +19,7 @@ public class TrainController : MonoBehaviour
 
     void Start()
     {
+        switched = true;
         stopCount = 1;
         travelling = false;
         StartCoroutine("FadeOut");
@@ -205,17 +206,28 @@ public class TrainController : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     { 
-        if (Input.GetButtonUp("Vertical") && !travelling && collider.CompareTag("Player")&&playerOnBoard) {
+        if (Input.GetButtonUp("Vertical") && !travelling && collider.CompareTag("Player")&&playerOnBoard&&switched) {
+            StartCoroutine("SwitchTimer");
             print("exited train");
             ExitTrain();
         }
 
         if (Input.GetButtonUp("Vertical") && !travelling && collider.CompareTag("Player") && !playerOnBoard&& 
-            transform.GetChild(0).GetComponent<SpriteRenderer>().color.a >=.9f)
+            transform.GetChild(0).GetComponent<SpriteRenderer>().color.a >=.9f && switched)
         {
+            StartCoroutine("SwitchTimer");
             print("Entered train");
             EnterTrain();
         }
+    }
+
+
+    IEnumerator SwitchTimer()
+    {
+
+        switched = false;
+        yield return new WaitForSeconds(2.5f);
+        switched = true;
     }
 
 }
