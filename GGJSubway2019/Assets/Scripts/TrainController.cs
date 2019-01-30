@@ -19,8 +19,10 @@ public class TrainController : MonoBehaviour
 
     void Start()
     {
+       
         switched = true;
         stopCount = 1;
+        nextStop = AllStops[stopCount].position;
         travelling = false;
         StartCoroutine("FadeOut");
         rb = GetComponent<Rigidbody2D>();
@@ -59,7 +61,7 @@ public class TrainController : MonoBehaviour
                 rb.velocity = new Vector2(MaxSpeed, rb.velocity.y);
         }
 
-
+            
 
         //safety ending
         if ((gameObject.transform.position.x-.001f) <= nextStop.x) {
@@ -80,6 +82,7 @@ public class TrainController : MonoBehaviour
 
     IEnumerator AtStation()
     {
+        
         arrived = true;
         StartCoroutine("DoorTimer");//might change to a door method
         yield return new WaitForSeconds(doorTimer);
@@ -130,6 +133,7 @@ public class TrainController : MonoBehaviour
     IEnumerator FadeIn()
     {
         playerOnBoard = true;
+        switched = false;
         for (float f = 0f; f <= 1; f += fadeRate * Time.deltaTime)
         {
             Color tmp = GetComponent<SpriteRenderer>().color;
@@ -157,19 +161,12 @@ public class TrainController : MonoBehaviour
             }
             yield return null;
         }
-       // TrainEnabled(true);
 
         StartCoroutine("DoorTimer");//might change to a door method
         yield return new WaitForSeconds(doorTimer);
 
+        switched = true;
         MoveTrain();
-    }
-
-    //this method might not be needed and just do FadeIn
-    void EnterTrain()
-    {
-        StartCoroutine("FadeIn");
-
     }
 
     //prob should include audio+animation and a bool to see which animation to play
@@ -207,27 +204,14 @@ public class TrainController : MonoBehaviour
     void OnTriggerStay2D(Collider2D collider)
     { 
         if (Input.GetButtonUp("Vertical") && !travelling && collider.CompareTag("Player")&&playerOnBoard&&switched) {
-            StartCoroutine("SwitchTimer");
             print("exited train");
             ExitTrain();
         }
-
         if (Input.GetButtonUp("Vertical") && !travelling && collider.CompareTag("Player") && !playerOnBoard&& 
             transform.GetChild(0).GetComponent<SpriteRenderer>().color.a >=.9f && switched)
         {
-            StartCoroutine("SwitchTimer");
-            print("Entered train");
-            EnterTrain();
+            StartCoroutine("FadeIn");
+            playerOnBoard = true;
         }
     }
-
-
-    IEnumerator SwitchTimer()
-    {
-
-        switched = false;
-        yield return new WaitForSeconds(2.5f);
-        switched = true;
-    }
-
 }
